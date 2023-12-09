@@ -69,7 +69,7 @@ button:hover{
     grid-template-columns: 350px;
     row-gap: 25px;
     place-items: center;
-    margin-top: 250px;
+    margin-top: 290px;
   }
 
   .mob-menu .project{
@@ -89,6 +89,6 @@ button:hover{
   }
 
   body{
-    padding-bottom: 500px;
+    padding-bottom: 540px;
   }
 }
