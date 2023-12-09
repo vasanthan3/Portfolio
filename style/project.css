@@ -69,12 +69,9 @@ button:hover{
     grid-template-columns: 350px;
     row-gap: 25px;
     place-items: center;
-    margin-top: 280px;
+    margin-top: 250px;
   }
 
-  body{
-    padding-bottom: 540px;
-  }
 
   .mob-menu .project{
     text-decoration: underline;
@@ -86,6 +83,10 @@ button:hover{
     text-decoration: underline;
     text-underline-offset: 8px;
     color: #ffe2e2;
+  }
+
+  .page{
+    height: auto;
   }
 
 }
