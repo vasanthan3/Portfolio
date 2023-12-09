@@ -72,7 +72,6 @@ button:hover{
     margin-top: 250px;
   }
 
-
   .mob-menu .project{
     text-decoration: underline;
     text-underline-offset: 8px;
@@ -89,4 +88,7 @@ button:hover{
     height: auto;
   }
 
+  body{
+    padding-bottom: 500px;
+  }
 }
