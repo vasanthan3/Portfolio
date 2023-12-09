@@ -58,6 +58,10 @@ img{
     height: 70px;
   }
 
+  .page{
+    height: auto;
+  }
+  
   .mob-menu .course{
     text-decoration: underline;
     text-underline-offset: 8px;
