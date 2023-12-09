@@ -67,11 +67,11 @@ p{
     width: 350px;
     height: 980px;
     row-gap:34px;
-    margin-top: 28px;
+    margin-top: 30px;
   }
 
   body{
-    padding-bottom: 210px;
+    padding-bottom: 80px;
   }
   .page{
     height: auto;

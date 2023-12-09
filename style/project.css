@@ -51,6 +51,10 @@ button:hover{
   color: white;
 }
 
+button:active{
+  opacity: 70%;
+}
+
 .header-menu .project{
   text-decoration: underline;
   text-underline-offset: 8px;
@@ -67,9 +71,9 @@ button:hover{
   .layout{
     display: grid;
     grid-template-columns: 350px;
-    row-gap: 25px;
+    row-gap: 30px;
     place-items: center;
-    margin-top: 290px;
+    margin-top: 320px;
   }
 
   .mob-menu .project{
@@ -89,6 +93,6 @@ button:hover{
   }
 
   body{
-    padding-bottom: 540px;
+    padding-bottom: 360px;
   }
 }

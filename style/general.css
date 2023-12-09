@@ -13,6 +13,10 @@ body{
   font-family:'Poppins',Arial, Helvetica, sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .header{
   height: 40px;
   display: flex;
@@ -118,14 +122,16 @@ body{
 
   .mobile-nav p{
     flex: 1;
+    font-size: 16px;
+    font-weight: 700;
   }
 
   .mob-menu{
     position: absolute;
     background-color: #575757;
-    height: 200px;
-    width: 150px;
-    top: 7%;
+    height: 220px;
+    width: 160px;
+    top: 8%;
     right: 5%;
     border-radius: 10px;
     display: flex;
