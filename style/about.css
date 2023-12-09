@@ -1,0 +1,95 @@
+.layout{
+  width: 970px;
+  height: 510px;
+  display: grid;
+  grid-template-columns: 400px 400px;
+  column-gap: 120px;
+  row-gap: 70px;
+}
+
+.rect{
+  background-color: #f7f7f7;
+  height: 220px;
+  width: 450px;
+  border-radius: 10px;
+}
+
+h4{
+  margin:10px 0px 5px 20px;
+  color: red;
+  font-family:'Poppins',Arial, Helvetica, sans-serif;
+}
+
+p{
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.grid1{
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns:100px 1fr;
+}
+
+.grid2{
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: 1fr 50px;
+}
+
+.grid3{
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: 1fr 50px;
+}
+
+.grid4{
+  margin-left: 20px;
+}
+
+.header-menu .about{
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  color: #808080;
+}
+
+.contact:hover,.project:hover,.home:hover,.course:hover{
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  color: #808080;
+}
+
+@media (max-width:650px){
+  
+  .layout{
+    display: grid;
+    grid-template-columns:360px;
+    width: 350px;
+    height: 980px;
+    row-gap:34px;
+    margin-top: 30px;
+  }
+
+  body{
+    padding-bottom: 270px;
+  }
+  .page{
+    height: auto;
+  }
+
+  .rect{
+    width: 350px;
+    height: 220px;
+  }
+  .mob-menu .about{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    color: #ffe2e2;
+  }
+  
+  .contact:hover,.project:hover,.course:hover,.home:hover{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    color: #ffe2e2;
+}
+}

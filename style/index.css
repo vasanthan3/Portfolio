@@ -1,0 +1,120 @@
+.rect{
+  display: flex;
+  background-color: #f7f7f7;
+  width: 590px;
+  height: 320px;
+  border-radius: 10px;
+}
+
+.profile-section{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+  border: 8px solid black;
+}
+
+.profile-content{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: -40px;
+}
+
+.profile-content p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #575757;
+  font-size: 18px;
+}
+
+button{
+  margin-top: 12px;
+  background-color: red;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  border: none;
+  padding: 6px 8px;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.header-menu .home{
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  color: #808080;
+}
+
+.contact:hover,.project:hover,.course:hover,.about:hover{
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  color: #808080;
+}
+
+.social-media{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img{
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+@media (max-width:650px){
+
+  .rect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+  }
+
+  .profile-section{
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile{
+    margin: 0px;
+  }
+
+  .profile-content{
+    margin: 0px;
+    margin-top: -40px;
+  }
+
+  .mob-menu .home{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    color: #ffe2e2;
+  }
+  
+  .contact:hover,.project:hover,.course:hover,.about:hover{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    color: #ffe2e2;
+  }
+
+}
