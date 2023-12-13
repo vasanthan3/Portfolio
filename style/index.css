@@ -69,12 +69,12 @@ button{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 img{
   height: 30px;
   margin-top: 20px;
-  margin-left: 25px;
 }
 
 @media (max-width:650px){
